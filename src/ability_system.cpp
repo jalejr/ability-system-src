@@ -5,6 +5,7 @@
 #include "ability_logic.h"
 #include "ability_instance_watcher.h"
 #include "godot_cpp/variant/typed_array.hpp"
+#include <algorithm>
 
 void AbilitySystem::_bind_methods() {
     ClassDB::bind_method(D_METHOD("get_tag_container"), &AbilitySystem::get_tag_container);
